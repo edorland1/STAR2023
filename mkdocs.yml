@@ -1,11 +1,11 @@
 site_name: STAR
-site_description: KEYS internship
+site_description: STAR internship
 site_author: Ellie Dorland
 site_url: https://edorland1.github.io/KEYS2023/
 
 # Repository
-repo_name: KEYS2023
-repo_url: https://github.com/edorland1/KEYS2023
+repo_name: STAR2023
+repo_url: https://github.com/edorland1/STAR2023
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2023 - 2024 Ellie Dorland'
@@ -117,7 +117,7 @@ nav:
 
 
 
-extra_css:
+#extra_css:
   - stylesheets/extra.css
 
 plugins:
