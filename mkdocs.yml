@@ -95,15 +95,11 @@ nav:
   - Introduction: index.md
   - Logbook: logbook.md
   - Assignments: keysassignments.md
-  - KEYS 2023 Main Project: 
-    - Poster: poster.md
-    - Covid-19 Origin: 
-      - Covid-19 Origin Code: covidheatmap.ipynb
+  - STAR 2023 Main Project: 
+    - Past Research:
       - Final COVID-19 Code: FinalCovid (2).ipynb
       - Covid-19 Origin Map: FinalCovidHeatmap.html
-    - 1854 Cholera Outbreak:
       - BNG to Longitude and Lattitude: BNGtoLonLat.ipynb
-      - Cholera Origin Code: heatmapcholera.ipynb
       - Cholera Final Code: Untitled (1).ipynb
       - Cholera Origin Map: CholeraFinal.html
     - Acknowledgments: acknowledgments.md
