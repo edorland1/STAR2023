@@ -1,5 +1,5 @@
-# KEYS
-this is Ellie's keys project
+# STAR
+this is Ellie's STAR project
 
 ```
 pip install mkdocs-material
