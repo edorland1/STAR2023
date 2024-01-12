@@ -20,3 +20,6 @@ Today I met with my mentor, we clarified some things, and I have settled on my r
 
 11/1/23 - 12/18/23
 During the end of the semester I completed the tutorial, learning more about how to use facebook prophet and what each specific piece of setting up the machine learning model did. Although it was a lot of work (and the logbook got updates less) I am now prepared to apply these ideas within my own project. From here I will clean both of my datasets and ensure they are good to run through my model, and then adjust my model to best predict cases. 
+
+1/12/24
+Today I met with my mentor, we went over some issues I was having with my datasets and putting them into a format that is usable with the model we are using. We figured out that there is a lot of issues with not having enougn overlap in our different datasets to endure our work is accurate because the wastewater data only goes back to june of 2023. We are reaching out to the people who created the dayaset to see if there is more data available to us, but if not we will be using out model to predict the wastewater data instead, by using the google trends as a comparison and prediction method. From here I am going to be working on finalizing the cleaning of the datasets and then merging them all together.
