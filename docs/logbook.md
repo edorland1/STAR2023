@@ -23,3 +23,6 @@ During the end of the semester I completed the tutorial, learning more about how
 
 1/12/24
 Today I met with my mentor, we went over some issues I was having with my datasets and putting them into a format that is usable with the model we are using. We figured out that there is a lot of issues with not having enougn overlap in our different datasets to endure our work is accurate because the wastewater data only goes back to june of 2023. We are reaching out to the people who created the dayaset to see if there is more data available to us, but if not we will be using out model to predict the wastewater data instead, by using the google trends as a comparison and prediction method. From here I am going to be working on finalizing the cleaning of the datasets and then merging them all together.
+
+1/16/24 
+Today I worked on cleaning my dataset and getting it to a point where I can merge them. I am still running into an issue interpolating the data, but I have been working on getting the google search terms into datasets that I can use. I have gotten about 5 out of 15 terms coded in. From here I just need to get the interpolating to work, add in the last 10 terms and then merge all the data.
