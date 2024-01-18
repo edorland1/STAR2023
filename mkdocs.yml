@@ -102,6 +102,8 @@ nav:
       - BNG to Longitude and Lattitude: BNGtoLonLat.ipynb
       - Cholera Final Code: Untitled (1).ipynb
       - Cholera Origin Map: CholeraFinal.html
+    - Research Paper: research_paper.md
+    - Results: results.md
     - Acknowledgments: acknowledgments.md
     - References: references.md
   - Resources:
