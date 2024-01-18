@@ -1,24 +1,55 @@
 # STAR Assignments 
 
-## Assignment 1: Internship Description 
-
-
-#### Project Description
+## Assignment 1: Project Description (Abstract)
 
 
 ## Assignment 2: Introduction to Your Research
 
-#### Purpose: 
+The SARS-CoV-2 virus, which triggered the Covid-19 pandemic, marked a turning point in global health history. This virus first surfaced in late 2019 and spread rapidly over the world due to its ability to transmit effectively through respiratory droplets (CDC, 2023). The virus suddenly spread across nations, upending the foundation of healthcare systems because of its infectious nature and the lack of preparation worldwide (Sharma, Ahmad Farouk, & Lal, 2021). Hospitals battled with sharp spikes in patient load due to the transmissibility of the virus, global markets crashed due to the sudden disruption of the economy and economic activities, and countries worldwide were forced to impose strict lockdowns in an attempt to slow the virus's spread (CDC, 2023).
+However as the pandemic progresses, moving from the initial outbreak stage to a potential endemic stage, the dynamics of response and surveillance are also changing (CDC, 2023). This new period is defined by a decline in traditional data-gathering methods, replacing the initial wave of international attention and rigorous data collection (CDC, 2023). Although this change seems logical in light of pandemic fatigue and shifting public health goals, it could pose a problem for ongoing surveillance. Even with the change in public data collection, new technology provides adaptive capabilities in this new setting. Machine learning is a promising development in this changing context. Machine learning can analyze large datasets, spot complex patterns, and provide accurate predictions (Ai et al., 2022). 
+The revolutionary potential of machine learning, a subset of artificial intelligence, has generated substantial interest in several fields, including epidemiology and health. Machine learning consists of a wide range of algorithms designed to evaluate, draw knowledge from, and predict data from large databases (Nichols, 2018). These algorithms continuously improve their predictions depending on the input data they receive, effectively "learning" as they are fed new information, in contrast to older computational approaches that rely on explicit programming (Nichols, 2018).
+The applications of machine learning become particularly vital in light of the COVID-19 outbreak. Traditional epidemiological prediction models have hurdles because of the pandemic's changing nature, which is characterized by mutations, fluctuating transmission rates, and various clinical presentations (CDC, 2023). A more flexible and responsive prediction tool is provided by machine learning, which can quickly process and react to enormous volumes of data (Comito & Pizzuti, 2022). Through the examination of many data sources, these algorithms can detect minute patterns and associations that may indicate impending increases or decreases in the number of cases (Comito & Pizzuti, 2022). By using machine learning and diverse datasets, this research aims to predict Covid-19 cases to better understand and prepare for increases in cases.
+In past research it has been proven that predicting Covid-19 cases is possible, but it has been difficult because of the way that Covid-19 spreads and the variants it produces (CDC, 2023). This study by Simin Ma, Yan Sun, and Shihao Yang suggests the use of machine learning models, specifically those based on time-series data, can provide more accurate trends(Ma et al., 2022). Another study by Yuehan Ai, Fan He, Emma Lancaster, and Jiyoung Lee connects the application of machine learning and wastewater-based epidemiology (Ai et al., 2022). This research highlighted the use of wastewater epidemiology in the ways that it can more accurately predict diseases, again coming to the conclusion that this can be enhanced by using machine learning based on time-series data (Ai et al., 2022). Additionally, studies have been done connecting trends in google search data to trends in Covid-19 cases, suggesting that there is a correlation between increases in disease and increased search patterns (Kurian et al., 2020; Higgins et al., 2020). This project moves forward using this past research to use both wastewater data and google trends data to predict Covid-19 cases using machine learning based on time series data. By using both datasets together using this specific machine learning model this research can provide a more accurate and comprehensive forecast of Covid-19 cases which has not been done before.
 
-#### Previous Research: 
-
-#### Need For Study: 
-
-#### Problem Statement: 
 
 #### References
 
+Ai, Y., He, F., Lancaster, E., & Lee, J. (2022, November 10). Application of machine learning for multi-community COVID-19 outbreak predictions with wastewater surveillance. PloS one. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9648834/ 
+
+Centers for Disease Control and Prevention. (2023). How coronavirus spreads. Centers for Disease Control and Prevention. Retrieved from https://www.cdc.gov/coronavirus/2019-ncov/your-health/about-covid-19.html
+
+Comito, C., & Pizzuti, C. (2022, March 28). Artificial Intelligence for forecasting and diagnosing COVID-19 pandemic: A focused review. Artificial Intelligence in Medicine. Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8958821/
+
+Prophet, Facebook Open Source. (2023). Facebook Prophet - Forecasting at Scale. Prophet. https://facebook.github.io/prophet/ 
+
+Higgins, T. S., Wu, A. W., Sharma, D., Illing, E. A., Rubel, K., & Ting, J. Y. (2020, May 21). Correlations of online search engine trends with coronavirus disease (COVID-19) incidence: Infodemiology study. JMIR Public Health and Surveillance. Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7244220/
+
+Kurian, S. J., Bhatti, A. U. R., Alvi, M. A., Ting, H. H., Storlie, C., Wilson, P. M., Shah, N. D., Liu, H., & Bydon, M. (2020, August 20). Correlations between COVID-19 cases and Google Trends data in the United States: A state-by-state analysis. Mayo Clinic Proceedings. Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7439962/
+
+Ma, S., Sun, Y., & Yang, S. (2022, December 2). Using internet search data to forecast COVID-19 trends: A systematic review. MDPI. https://www.mdpi.com/2813-2203/1/2/14 
+
+Nichols, T. (2018). Machine Learning: A comprehensive, step-by-step guide to learning and understanding machine learning from beginners, intermediate, advanced, to expert concepts. Stonewall Press.
+
+Real Python. (2023, July 24). Python ai: How to build A neural network & make predictions. Retrieved from https://realpython.com/python-ai-neural-network/
+
+Sharma, A., Ahmad Farouk, I., & Lal, S. K. (2021, January 29). Covid-19: A review on the novel coronavirus disease evolution, transmission, detection, control and prevention. Viruses. Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7911532/
+
+
 ## Assignment 3: Materials and Methods 
+
+Facebook Prophet is a machine learning tool that uses time-series data and can account for real world incidents such as holidays to make inferences about irregular data patterns, that of which is very present in this study (Prophet, 2023). Using Facebook Prophet provides a comprehensive view of the complexities of forecasting, creating more accurate predictions based off of datasets. In this project both carefully selected datasets will provide a rich combination of data that is necessary because of the lack of reliable and continuously updating Covid-19 data being produced. These two datasets are:
+Wastewater Data: The technique of examining wastewater for signs of the SARS-CoV-2 virus is leading the way in the cutting edge of epidemiological surveillance. This method makes use of the fact that people excrete the virus in their feces regardless of whether they exhibit overt symptoms, making wastewater a real-time indicator of community infections (CDC, 2023). The detail of this data offers potential for trend analysis, highlighting early signs of localized outbreaks (Ai et al., 2022). Furthermore, a dynamic stream of data is ensured by the systematic and ongoing sampling of wastewater at multiple points, providing a comprehensive picture of evolving viral concentrations (CDC, 2023). While other data collections are being halted, wastewater data is the most accurate and continuously updated database that will not be altered in the near future (CDC, 2023).
+Google Trends Data: In the era of digital connectivity, Google Trends has become a way of reflecting the health worries and inquiries of billions of people worldwide. Through the careful monitoring and examination of search trends linked to Covid-19 symptoms, researchers can gain an indirect, but incredibly insightful, understanding of the rise and fall of viral fears in local communities (Kurian et al., 2020; Higgins et al., 2020). Because this dataset is not directly a Covid-19 case dataset it is not a direct data source, however, previous research supports the validity of this strategy by demonstrating observable associations between increases in searches for particular symptoms and subsequent increases in cases of Covid-19 that have been clinically confirmed (Kurian et al., 2020; Higgins et al., 2020). This dataset's multifaceted nature allows for the flexibility to zoom into hyper-localized pockets of interest while providing an overview of public health concerns due to its wide amount of data.
+To evaluate and predict using this data,  Facebook Prophet will be an invaluable tool. Facebook Prophet is a forecasting tool that was created by Facebook’s ‘Core Data Science’ team (Prophet, 2023). It is designed and used to make predictions about time series data, a type of data that is ordered chronologically and typically consists of sequences taken at successive equally spaced points in time (Prophet, 2023). This kind of data is often used to analyze and predict trends over time, making it ideal for forecasting metrics such as sales, stock prices, weather, and in this case, disease spread patterns like those of Covid-19 (Prophet, 2023). Time series analysis can reveal underlying patterns in data such as seasonality, cycles, and long-term trends, which are valuable for making informed predictions and decisions (Prophet, 2023). Prophet, which is specifically trained to handle this type of data, is strongly connected to seasonal effects and takes into account holidays, seasonal changes, etc, which makes it very accurate in predicting daily, weekly, and yearly patterns (Prophet, 2023). Specifically, Prophet deals well with data that has irregular trends, missing data, and large outliers, making it ideal for real-world predictions (Prophet, 2023).
+By using Prophet to predict Covid-19 cases, the process would involve:
+Data Collection: This process has already been done, as this research is taking data from Wastewater collections and Google Trends, but ordinarily the first step would be to collect the data
+Data Processing: After collecting data, it must be cleaned to remove missing values, outliers and any values that are not suitable for the Prophet to decipher. Prophet requires two columns, ‘ds’ (datestamp) for dates, and ‘y’ for the values that are attempting to be forecasted (Prophet, 2023).
+Model Training: Once the data is cleaned, Prophet can be trained to look for trends, taking into account things such as holidays that might account for the irregular patterns (Prophet, 2023).
+Forecasting: Using the trained model, future predictions can then be made. 
+Evaluation: After the forecasting has been done there must be an evaluation of the predicted values compared to the actual data. To do this RMSE will be used to evaluate the effectiveness of the projections, and the margin of error that occurs (Ma et al., 2022).
+To visually represent complex data patterns and predictions, heatmaps are a powerful and intuitive tool for visualizing machine learning outcomes. These maps' unique color gradients show variations in data intensity, making it easy to find areas with noteworthy trends or anomalies  (Real Python, 2023). Every hue or shade represents a distinct data value, giving a precise representation of distribution across different regions (Real Python, 2023). This, along with trend lines to represent the prediction of data, will help to visually display information in an accessible way.
+The Covid-19 pandemic is constantly changing, making agile, accurate, and transparent predictive mechanisms imperative. This work aims to close this gap using a machine-learning foundation and a variety of data sources. It seeks to enhance public health responses by facilitating informed decision-making, optimizing the use of resources, and empowering individuals with predictive insights. The results of this study may open the door for additional research into different data streams, improved algorithms, or even extending the predictive reach to address other public health issues.
+
 
 ## Assignment 4: Results 
 
@@ -27,5 +58,8 @@
 ## Assignment 6 Title and Short Abstract
 
 ### Title
+
+Predicting Covid-19 Cases Using Machine Learning: An Integration of Wastewater and Google Search Data
+
 
 ### Short Abstract
