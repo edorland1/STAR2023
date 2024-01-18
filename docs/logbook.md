@@ -26,3 +26,7 @@ Today I met with my mentor, we went over some issues I was having with my datase
 
 1/16/24 
 Today I worked on cleaning my dataset and getting it to a point where I can merge them. I am still running into an issue interpolating the data, but I have been working on getting the google search terms into datasets that I can use. I have gotten about 5 out of 15 terms coded in. From here I just need to get the interpolating to work, add in the last 10 terms and then merge all the data.
+
+
+1/17/24
+I worked with a STAR Lab coordinater to look at my code today. I am still having an issue getting the data to interpolate, but he pointed out that the main issue I am having is because of my computer not running the same program, likley a lower level of python. I am working to find another way to execute my code to see if that changes anything, but we are still struggling to get the data to interpolate. He is working on it on his own time since I cannot use this computer to help right not, and if he is able to format the data correctly he is going to reach out again. Regardless, I have a meeting with my mentor on friday so I should hopefully get a chance to work through some of this with her.
