@@ -33,3 +33,6 @@ I worked with a STAR Lab coordinater to look at my code today. I am still having
 
 1/19/24
 Today I worked on my physical science notebook, and then I was able to solve the interpolation issue with my mentor. The issue seemed to be because the data had a non numerical answer, but we changed the data so that it is all numerical. With it working we moved onto merging the data, but we are now having an issue because the merged data is dropping rows, a lot of them. So now I am working on that. in the meantime I have to get all the google trends data and then find out which ones have the most correlation and the best flex in time. After that we will run the google trends through prophet for more information.
+
+1/23/24
+Today I managed to get all of my data imported, but the merging still does not work. From here I have to interpolate them all, and then find the correlation. Once I get that done and fix the merging I can work on the predictions!
