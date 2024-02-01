@@ -31,7 +31,7 @@ theme:
   language: en
   palette:
     scheme: default
-    primary: pink
+    primary: salmon
     accent: purple
       
   font:
