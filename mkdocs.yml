@@ -31,8 +31,8 @@ theme:
   language: en
   palette:
     scheme: default
-    primary: black
-    accent: blue
+    primary: purple
+    accent: pink
       
   font:
     text: Merriweather
